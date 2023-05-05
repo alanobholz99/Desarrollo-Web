@@ -264,8 +264,11 @@ background-color:pink ;
 .boton:hover{
     background-color: aqua;
 }
+.violeta{
+    background-color: aqua;
+    color:violet
+    
+}
 
-.violeta {
-    color:violet;a
 }
-}
+

@@ -1,0 +1,32 @@
+footer{
+    @include footer(url(../imagenes/fondo\ para\ section.jpg), cover, no-repeat, 'Dancing Script', red )
+}
+
+.material-symbols-outlined{
+ margin: 10px 50%;
+    
+        color: $font-f;
+        font-size: 8em;
+        font-variation-settings:
+      'FILL' 1,
+      'wght' 700,
+      'GRAD' 0,
+      'opsz' 48
+
+}
+.material-symbols-outlined:hover{
+    color: aqua;
+}
+
+@media (max-width:576px){
+    .material-symbols-outlined {
+        margin: 10px 40%;
+        color: pink;
+        font-size: 8em;
+        font-variation-settings: "FILL" 1, "wght" 250, "GRAD" 0, "opsz" 48;
+      }
+      
+      .material-symbols-outlined:hover {
+        color: #dc3545;
+      }
+}

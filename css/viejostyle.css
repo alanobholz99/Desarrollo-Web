@@ -1,0 +1,218 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+/* color de fondo de body del sitio web ya se paso scss*/
+
+.fondo {
+    background-image: url(../imagenes/color\ beige.jpg);
+background-repeat: repeat;
+
+}
+/* imagen de cabeza del sitio, pasado a scss */
+header{
+    background-image: url(../imagenes/imagen\ para\ headers.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* titulos mas importantes pasado en scss */
+h1{
+   
+   color: red;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+} 
+/* tamaño al main y tipografia de todas las paginas pasado a scss */
+main{
+    font-family: 'Dancing Script', cursive; 
+    text-align: center;
+    color: red;
+    text-decoration: 10px;
+   font-size:xx-large;
+   text-decoration: red;
+}
+
+
+
+/* tipografia para footer del index agregado al scss */
+footer{
+    background-image: url(../imagenes/fondo\ para\ section.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Dancing Script', cursive;
+color: red;
+}
+
+
+/* aplica direccion a la lista pasado scss*/
+UL{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+/* aplica tipografia a la lista pasado scss*/
+li{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+   font-weight: bolder;
+ 
+}
+/* Al h2 aplica color, tipografia y lugar pasado a scss*/
+h2{
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    text-align: center;
+   
+}
+
+/* columnaindex: para hacer las columnas del index pasado scss */
+.columnaindex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+/* columnaarticle: para alinera las columnas del index pasado scss*/
+.columnaarticle{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    justify-content: space-around;
+    
+    
+   
+}
+/* boton para tarjetas pasado al scss*/
+.boton{
+display: block;
+color:  red;
+border-radius: 10px 10px;
+padding: 10px 10px;
+text-align: center;
+background-color:moccasin;
+    font-family: 'Dancing Script', bold;
+    font-size: x-large;
+text-decoration: solid;
+
+}
+/* pseudomodo para bton tarjetas pasado al scss*/
+.boton:hover{
+    background-color: pink;
+color: aqua;
+
+}
+/* icono de footer exquiciteces pasado al scss*/
+.material-symbols-outlined {
+margin: 10px 50%;
+
+    color: red;
+    font-size: 8em;
+    font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+
+}
+/* pseudomodo del icono pasado al scss*/
+.material-symbols-outlined:hover {
+color: aqua;
+ }
+/* alerta exquiciteces, main  */
+ .alert-primary {
+    --bs-alert-color: red;
+    --bs-alert-bg: pink;
+    --bs-alert-border-color: #b6d4fe;
+    }
+/* para quitar todo tipo de fondos  ya esta scss*/
+    .none{
+        background:none
+    }
+/* cartas color rosa pasado al scss*/
+    .card{
+    background-color: pink;
+}
+ 
+/* letras rojas y al pasar pasan a aqua pasado al scss */
+a{
+    color: red;
+   text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+/* aplica color a las letras de las redes en contactos y les quita el subrayado listo scss*/
+.redes {
+    color: brown;
+text-decoration: none;
+}
+/* para camnbiar la tipografia del titulo de las cartas listo scss*/
+.titulocarta{
+    color: red;
+    font-family: "Dancing Script"; 
+}
+/* color de las lineas inferiores del carrousel, en la pagina eventos */
+
+
+/* colo index, bucador */
+
+
+/* color y tipografia de letra del buscador del index */
+
+
+/* boton de search del index */
+
+
+/* moblie Exquiciteces y conocenos */
+@media(max-width:576px){
+ul{
+    flex-direction: column;
+}
+.columnaarticle{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+}
+.material-symbols-outlined {
+    margin: 10px 40%;
+    color: pink;
+    font-size: 8em;
+    font-variation-settings: 'FILL' 1, 'wght' 250, 'GRAD' 0, 'opsz' 48;
+}
+.material-symbols-outlined:hover{
+    color: #dc3545;
+
+}
+.card{
+    background-color: aqua;
+}
+.card:hover{
+background-color:pink ;
+} 
+.boton{
+    background-color: pink;
+}
+.boton:hover{
+    background-color: aqua;
+}
+.violeta{
+    background-color: aqua;
+    color:violet
+    
+}
+
+}
+

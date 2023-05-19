@@ -1,0 +1,43 @@
+h1{
+    color:map-get($h1, cl );
+    text-align: map-get($h1, tx );
+    font-family:map-get($h1, letra );
+    font-size:map-get($h1, alto );
+
+}
+main{
+    @extend %tipografia;
+}
+// use el mismo maps del h1
+h2{
+    color:map-get($h1, cl);
+    text-align:map-get($h1, tx);
+    font-family:map-get($h1, letra);
+}
+.texto{
+    @extend %tipografia;
+}
+
+.carrousel-color{
+    background-color: #dc3545;
+}
+
+.color-nav{
+    
+    color: red;
+    background-color: pink;
+    background-clip: padding-box;
+    border: 1px solid red;
+    font-family: 'Dancing Script';
+
+}
+.color-btn-nav{
+   background-color: #dc3545;
+   color: #dc3545;
+   
+    font-family: "Dancing Script";
+}
+
+.color-btn-nav:hover{
+    background-color: aqua;
+}

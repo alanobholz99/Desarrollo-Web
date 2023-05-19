@@ -1,0 +1,12 @@
+@mixin footer($background, $estilo, $no, $letra, $color){
+     background-image: $background;
+background-size: $estilo;
+background-repeat: $no;
+font-family: $letra;
+color: $color;
+}
+
+@mixin fondo($fondo, $si){
+    background-image: $fondo;
+    background-repeat: $si;
+}

@@ -1,0 +1,42 @@
+
+header {
+    background-image: url(../imagenes/imagen\ para\ headers.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    ul{
+        list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+    @media(max-width:576px){
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+        
+        li{
+            font-family: $font-f;
+            font-size: 45px;
+           font-weight: bolder;
+    a{ 
+        color:red;
+        text-decoration: none;
+    &:hover{
+        color: aqua;
+    }
+    }
+
+        }
+
+    
+
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+}

@@ -1,0 +1,41 @@
+.columnaindex{
+    @extend %columnaindex;
+
+
+}
+.fondo {
+    background-image: url(../imagenes/color\ beige.jpg);
+background-repeat: repeat;
+}
+.titulocarta{
+    color:map-get($h1, cl );
+    font-family:map-get($h1,letra );  
+}
+.none .card{
+    background-color: pink;
+  
+}
+@media(max-width:576px){
+    .card{
+        background-color: aqua;
+    }
+    .card:hover{
+    background-color:pink ;
+    } 
+}
+.tamaño{
+    width: 500px;
+    height: 600px;
+}
+.orden{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300%;
+    width: 100%;
+    color:map-get($h1, cl );
+font-family: 'Dancing Script';
+font-size: 130%;
+gap: 13%;
+
+}

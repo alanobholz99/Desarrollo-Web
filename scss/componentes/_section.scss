@@ -23,19 +23,23 @@ background-repeat: repeat;
     background-color:pink ;
     } 
 }
+
+
+
 .tamaño{
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
 }
+
+@media(max-width:576px){ 
 .orden{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 300%;
-    width: 100%;
-    color:map-get($h1, cl );
+   display: flex;
+  flex-direction: column;
+ color:map-get($h1, cl );
 font-family: 'Dancing Script';
-font-size: 130%;
-gap: 13%;
+
 
 }
+}
+

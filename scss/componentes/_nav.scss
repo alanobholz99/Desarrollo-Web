@@ -1,6 +1,35 @@
+.colorbtn{
+background-color: pink;
+color: red;
+font-family: "Dancing Script";
+border-radius: 10px;
+}
+.colorbtn:hover{
+    background-color: aqua;
+
+}
+
+
+.hmcolor{
+    background-color: pink;
+    color: red;
+}
+.hmcolor:hover{
+    background-color: aqua;
+    color:pink;
+}
+.dropdown-menu{
+    background-color: pink;
+}
+
+
+
+.nomostrar{
+   display:none;
+}
+
 @media(max-width:576px){
-    ul{
-        display: flex;
-        flex-direction: column;
+    .nomostrar{
+        display: block;
     }
 }

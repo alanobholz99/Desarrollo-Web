@@ -117,6 +117,10 @@ h2 {
   background-color: pink;
 }
 
+.fuera {
+  text-decoration-line: none;
+}
+
 .fondo {
   background-image: url(../imagenes/color\ beige.jpg);
   background-repeat: repeat;
